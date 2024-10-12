@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Homeskraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Payment Methods</h1>
+    </header>
+
+    <form class="payment-form">
+        <h3>Select Payment Method</h3>
+        <label>
+            <input type="radio" name="payment" value="card" required> Credit/Debit Card
+        </label>
+        <label>
+            <input type="radio" name="payment" value="upi" required> UPI
+        </label>
+        <label>
+            <input type="radio" name="payment" value="netbanking" required> Net Banking
+        </label>
+        <button type="submit" class="pay-now-btn">Pay Now</button>
+    </form>
+</body>
+</html>
